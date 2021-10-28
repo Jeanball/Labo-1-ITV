@@ -20,7 +20,7 @@ Le temps alloué en classe est d'environ 3 heures.
 1. Caractérisation de la machine serveur :
    
    - Nom (FQDN)
-   - Addresses IPv4, IPv6 (réseau)
+   - Addresses IPv4, IPv6 (réseau) 
    - Fichier Hosts (partie liée à l'installation), et serveur DNS
    - Port des services ouverts.
    - Usager utilisé pour l'installation.
@@ -34,10 +34,20 @@ Le temps alloué en classe est d'environ 3 heures.
 3. Procédure d'installation détaillée des services :
    
    - Programmes : Nom, version, procédure d'installation.
+   -              Git, 2.33.1, sudo add-apt-repository ppa:git-core/ppa, sudo apt update, sudo apt upgrade, sudo apt install git
+   -              Nginx, 1.18.0, sudo apt install nginx
+   -              MySQL, 8.0.27 , sudo apt install mysql-server-8.0
+   -              PHP, 7.4.3, sudo apt install php-fpm php-cli php-mysql php-curl php-json -y
+   -              
    - Répertoire utilisé pour le programme, ses fichiers de configuration, ses données.
+                 PHP : /etc/php/7.4/fpm, /etc/php/7.4/fpm/php.ini 
    - Espace espace utilisé et droits sur les répertoires.
    - Nom d'usager (UID) et groupe (GID) pour le programme au sein du système et dans l'application.
    - Liste des commandes nécessaires pouvant être exécutées par une tierce personne.
+      sudo apt update
+      sudo apt upgrade
+      sudo systemctl restart nginx 
+      sudo service mysql status
 
 
 
