@@ -38,7 +38,7 @@ Le temps alloué en classe est d'environ 3 heures.
    -              Nginx, 1.18.0, sudo apt install nginx
    -              MySQL, 8.0.27 , sudo apt install mysql-server-8.0
    -              PHP, 7.4.3, sudo apt install php-fpm php-cli php-mysql php-curl php-json -y
-   -              
+  
    - Répertoire utilisé pour le programme, ses fichiers de configuration, ses données.
    -              PHP : /etc/php/7.4/fpm, /etc/php/7.4/fpm/php.ini 
    - Espace espace utilisé et droits sur les répertoires.
