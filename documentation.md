@@ -40,14 +40,14 @@ Le temps alloué en classe est d'environ 3 heures.
    -              PHP, 7.4.3, sudo apt install php-fpm php-cli php-mysql php-curl php-json -y
    -              
    - Répertoire utilisé pour le programme, ses fichiers de configuration, ses données.
-                 PHP : /etc/php/7.4/fpm, /etc/php/7.4/fpm/php.ini 
+   -              PHP : /etc/php/7.4/fpm, /etc/php/7.4/fpm/php.ini 
    - Espace espace utilisé et droits sur les répertoires.
    - Nom d'usager (UID) et groupe (GID) pour le programme au sein du système et dans l'application.
    - Liste des commandes nécessaires pouvant être exécutées par une tierce personne.
-      sudo apt update
-      sudo apt upgrade
-      sudo systemctl restart nginx 
-      sudo service mysql status
+   -              sudo apt update
+   -              sudo apt upgrade
+   -              sudo systemctl restart nginx 
+   -              sudo service mysql status
 
 
 
