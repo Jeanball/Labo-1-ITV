@@ -1,19 +1,10 @@
 # Laboratoire 01 - Procédure d'installation d'une application Web
 
 
-
-**But :** le but de se laboratoire est documenter la procédure d'installation d'un site Web Wordpress dans votre environnement de test.
-
+Dans ce document nous allons détailler l’installation d’un site internet wordpress dans un environnement de test, ainsi que les configuration  des composantes nécessaire afin de procéder à la dite installation.
 
 
-**Contexte :** Le laboratoire s'effectue en groupe de 2 personnes.
-
-
-**Remise :** Vous devez déposer votre travail dans l'espace prévu sur LÉA au plus tard, le 13 novembre à 23h59.
-Le temps alloué en classe est d'environ 3 heures.
-
-
-## Voici les sections qui doivent être incluses dans votre procédure (document):
+## Voici les sections qui sont incluses dans la procédure:
 
 
 
