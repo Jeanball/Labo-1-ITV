@@ -8,28 +8,28 @@ Dans ce document nous allons détailler l’installation d’un site internet wo
 
 
 
-1. Caractérisation de la machine serveur :
+### 1. Caractérisation de la machine serveur :
    
-   - Nom (FQDN) : 
-   -            jsdurette@srvdevopsjsd
-   - Addresses:
-   -           IPv4: 10.100.2.15
-   -           IPv6: fe80::250:56ff:fe9a:d501
-   - Fichier Hosts (partie liée à l'installation), et serveur DNS
-   -                 Localhost : 127.0.0.1
-   -                 srvdevops_jsd : 127.0.1.1
-   -                 DNS : 199.202.105.108
-   -                       199.202.105.1
-   -                 Domaine DNS : csfoy.ca
-   - 
-   - Port des services ouverts:
-   -           Port 80 (Nginx)
-   -           Port 53 (Systemd-resolved)
-   -           Port 22 (SSH)
-   -           Port 33060 (MySQL)
-   -           Port 3306 (MySQL)
-   - Usager utilisé pour l'installation
-   -           Nom : jsdurette
+   #### - Nom (FQDN) : 
+   - jsdurette@srvdevopsjsd
+   #### - Addresses:
+   - IPv4: 10.100.2.15
+   - IPv6: fe80::250:56ff:fe9a:d501
+   #### - Fichier Hosts (partie liée à l'installation), et serveur DNS
+   - Localhost : 127.0.0.1
+   - srvdevops_jsd : 127.0.1.1
+   - DNS : 199.202.105.108
+   - 199.202.105.1
+   - Domaine DNS : csfoy.ca
+   
+   #### - Port des services ouverts:
+   - Port 80 (Nginx)
+   - Port 53 (Systemd-resolved)
+   - Port 22 (SSH)
+   - Port 33060 (MySQL)
+   - Port 3306 (MySQL)
+   #### - Usager utilisé pour l'installation
+   - Nom : jsdurette
 
 
 
