@@ -19,11 +19,20 @@ Le temps alloué en classe est d'environ 3 heures.
 
 1. Caractérisation de la machine serveur :
    
-   - Nom (FQDN)
-   - Addresses IPv4, IPv6 (réseau) 
+   - Nom (FQDN) : 
+   -            SrvDevOpsJSD
+   - Addresses:
+   -           IPv4: 10.100.2.15
+   -           IPv6: fe80::250:56ff:fe9a:d501
    - Fichier Hosts (partie liée à l'installation), et serveur DNS
-   - Port des services ouverts.
-   - Usager utilisé pour l'installation.
+   - Port des services ouverts:
+   -           Port 80 (Nginx)
+   -           Port 53 (Systemd-resolved)
+   -           Port 22 (SSH)
+   -           Port 33060 (MySQL)
+   -           Port 3306 (MySQL)
+   - Usager utilisé pour l'installation
+   -           Nom : jsdurette
 
 
 
@@ -66,7 +75,7 @@ Le temps alloué en classe est d'environ 3 heures.
 
 
 
-   Cette procédure doit démontrer le bon fonctionnent du site Web Wordpress.
+   Cette procédure doit démontrer le bon fonctionnement du site Web Wordpress.
 
 
 
