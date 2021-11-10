@@ -48,12 +48,11 @@ Dans ce document nous allons détailler l’installation d’un site internet wo
    - PHP, 7.4.3, sudo apt install php-fpm php-cli php-mysql php-curl php-json -y
   
    #### Répertoire utilisé pour le programme, ses fichiers de configuration, ses données.
-   -              PHP : /etc/php/7.4/fpm, /etc/php/7.4/fpm/php.ini 
-   -              NGINX : /etc/nginx
-   -              MySQL : /etc/mysql
-   -              Git : /usr/bin/git
-   -              
-   -      
+   - PHP : /etc/php/7.4/fpm, /etc/php/7.4/fpm/php.ini 
+   - NGINX : /etc/nginx
+   - MySQL : /etc/mysql
+   - Git : /usr/bin/git
+                     
    #### Espace espace utilisé et droits sur les répertoires.
    - Git : 3.3 Mo
    - PHP : 300 Ko
