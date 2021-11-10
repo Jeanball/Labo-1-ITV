@@ -37,6 +37,8 @@ Le temps alloué en classe est d'environ 3 heures.
 
 
 2. Les mises à jour préalables à l'installation et ajout de composants externes si nécessaire.
+   -  sudo apt update -y (Télécharger et mettre à jour les informations de paquets via la configuration /etc/apt/source.list)
+   -  sudo apt upgrade -y (Applique la dernière version de la mise à jour à tous les paquets installés)
 
 
 
