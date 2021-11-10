@@ -11,7 +11,7 @@ Dans ce document nous allons détailler l’installation d’un site internet wo
 1. Caractérisation de la machine serveur :
    
    - Nom (FQDN) : 
-   -            SrvDevOpsJSD
+   -            jsdurette@srvdevopsjsd
    - Addresses:
    -           IPv4: 10.100.2.15
    -           IPv6: fe80::250:56ff:fe9a:d501
