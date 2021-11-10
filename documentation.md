@@ -25,6 +25,12 @@ Le temps alloué en classe est d'environ 3 heures.
    -           IPv4: 10.100.2.15
    -           IPv6: fe80::250:56ff:fe9a:d501
    - Fichier Hosts (partie liée à l'installation), et serveur DNS
+   -                 Localhost : 127.0.0.1
+   -                 srvdevops_jsd : 127.0.1.1
+   -                 DNS : 199.202.105.108
+   -                       199.202.105.1
+   -                 Domaine DNS : csfoy.ca
+   - 
    - Port des services ouverts:
    -           Port 80 (Nginx)
    -           Port 53 (Systemd-resolved)
@@ -52,24 +58,62 @@ Le temps alloué en classe est d'environ 3 heures.
   
    - Répertoire utilisé pour le programme, ses fichiers de configuration, ses données.
    -              PHP : /etc/php/7.4/fpm, /etc/php/7.4/fpm/php.ini 
+   -              NGINX : /etc/nginx
+   -              MySQL : /etc/mysql
+   -              Git : /usr/bin/git
+   -              
+   -      
    - Espace espace utilisé et droits sur les répertoires.
-   - Nom d'usager (UID) et groupe (GID) pour le programme au sein du système et dans l'application.
+   -              Git : 3.3 Mo
+   -              PHP : 300 Ko
+   -              Nginx : 92 Ko
+   -              MySQL : 44 Ko
+   -              
+   -              
+   - Nom d'usager (UID) : jsdurette (1000) groupe (GID): jsdurette (1000)
+   - 
    - Liste des commandes nécessaires pouvant être exécutées par une tierce personne.
    -              sudo apt update
    -              sudo apt upgrade
    -              sudo systemctl restart nginx 
+   -              sudo systemctl status nginx
    -              sudo service mysql status
-
+   -              sudo systemctl status php7.4-fpm
 
 
 4. Prédure d'installation détaillée de WordPress :
    
-   - Nom, version, procédure d'installation.
-   - Espace utilisé.
-   - Répertoire utilisé pour le programme, ses fichiers de configuration, ses données.
-   - Espace espace utilisé et droits sur les répertoires.
-   - Nom d'usager pour le programme au sein du système et dans l'application.
-   - Liste des commandes nécessaires pouvant être exécutées par une tierce personne.
+   - Nom : 
+   -      Wordpress
+   - Version :
+   -      5.8.2 
+   - Procédure d'installation :
+                              - sudo mkdir -p /var/www/html/wpress, wget https://wordpress.org/latest.tar.gz , tar xfvz latest.tar.gz
+                              - sudo cp -r wordpress/* /var/www/html/wpress, sudo chown -R www-data /var/www/html/wpress, sudo chmod -R                                 - 755 /var/www/html/wpress
+   - Espace utilisé : 
+   -                 46,38 Mo
+   - Répertoire utilisé pour le programme, ses fichiers de configuration, ses données :
+                     - Répertoire Wordpress : /var/www/html/wpress
+                     - Répertoire des téléversements : /var/www/html/wpress/wp-content/uploads
+                     - Répertoire des thèmes : /var/www/html/wpress/wp-content/themes
+                     - Répertoire des extensions : /var/www/html/wpress/wp-content/plugins
+                     - Fichier Virtual Host Nginx pour Wordpress : /etc/nginx/conf.d/wpress.conf
+   - Espace espace utilisé et droits sur les répertoires :
+   -                                            Répertoire Wordpress : 46,38 Mo : Accessible en écriture
+   -                                            Répertoire des téléversements : 0 Octet : Accessible en écriture
+   -                                            Répertoire des thèmes : 6,47 Mo : Accessible en écriture
+   -                                            Répertoire des extensions : 251,25 Ko : Accessible en écriture
+   -                                            Taille de la base de donnée : 688 Ko
+   -                                            Taille totale de l'installation : 53,77 Mo
+   - Nom d'usager pour le programme au sein du système et dans l'application : adminwp
+   - Liste des commandes nécessaires pouvant être exécutées par une tierce personne:
+   -                                sudo systemctl restart nginx
+   -                                sudo systemctl restart nginx 
+   -                                sudo systemctl status nginx
+   -                                sudo service mysql status
+   -                                sudo systemctl status php7.4-fpm
+   -                                                     
+   - 
 
 
 
