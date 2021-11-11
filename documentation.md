@@ -1,30 +1,30 @@
 Jean-Sébastien Durette
 Yann Martel
 Groupe 10037
-
-
-
-
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <center>Procédure d’installation d’une application web</center>
-
+<br/>
 <center>Travail présenté à monsieur Jean-Pierre Duchesneau</center>
-
+<br/>
 <center>Infrastructure technologique et virtualisation</center>
 <center>420-W44-SF</center>
-
-
-
-
-
-
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <center>Département d’informatique</center>
 <center>Programme programmation et base de données</center>
 <center>Cégep de Sainte-Foy</center>
 <center>14 novembre 2021</center>
-
-
+<br/>
+<br/>
 # Laboratoire 01 - Procédure d'installation d'une application Web
 
 
