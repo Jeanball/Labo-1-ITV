@@ -96,7 +96,6 @@ Dans ce document nous allons détailler l’installation d’un site internet wo
    #### Nom d'usager pour le programme au sein du système et dans l'application : 
    - adminwp
    #### Liste des commandes nécessaires pouvant être exécutées par une tierce personne:
-   - sudo systemctl restart nginx
    - sudo systemctl restart nginx 
    - sudo systemctl status nginx
    - sudo service mysql status
