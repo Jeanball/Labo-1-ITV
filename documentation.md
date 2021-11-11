@@ -5,7 +5,7 @@ Groupe 10037<br/>
 <br/>
 <br/>
 <br/>
-<br/>
+<br/><div align="center">
                                           <center>Procédure d’installation d’une application web</center><br/>
 <br/>
                                           <center>Travail présenté à monsieur Jean-Pierre Duchesneau</center><br/>
@@ -23,6 +23,7 @@ Groupe 10037<br/>
                                                <center>Programme programmation et base de données</center><br/>
                                                          <center>Cégep de Sainte-Foy</center><br/>
                                                           <center>14 novembre 2021</center><br/>
+  <div/>
 <br/>
 <br/>
 
