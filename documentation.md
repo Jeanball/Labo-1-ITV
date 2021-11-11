@@ -6,24 +6,24 @@ Groupe 10037<br/>
 <br/>
 <br/>
 <br/><div align="center">
-                                          <center>Procédure d’installation d’une application web</center><br/>
+Procédure d’installation d’une application web<br/>
 <br/>
-                                          <center>Travail présenté à monsieur Jean-Pierre Duchesneau</center><br/>
+Travail présenté à monsieur Jean-Pierre Duchesneau<br/>
 <br/>
-                                          <center>Infrastructure technologique et virtualisation</center><br/>
-                                                            <center>420-W44-SF</center><br/>
-<br/>
-<br/>
+Infrastructure technologique et virtualisation<br/>
+420-W44-SF<br/>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
-                                                      <center>Département d’informatique</center><br/>
-                                               <center>Programme programmation et base de données</center><br/>
-                                                         <center>Cégep de Sainte-Foy</center><br/>
-                                                          <center>14 novembre 2021</center><br/>
-  <div/>
+<br/>
+<br/>
+Département d’informatique<br/>
+Programme programmation et base de données<br/>
+Cégep de Sainte-Foy<br/>
+14 novembre 2021<br/>
+  </div>
 <br/>
 <br/>
 
