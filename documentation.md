@@ -82,7 +82,7 @@ Dans ce document nous allons détailler l’installation d’un site internet wo
    - MySQL : /etc/mysql
    - Git : /usr/bin/git
                      
-   #### Espace espace utilisé et droits sur les répertoires.
+   #### Espace utilisé et droits sur les répertoires.
    - Git : 3.3 Mo
    - PHP : 300 Ko
    - Nginx : 92 Ko
@@ -115,7 +115,7 @@ Dans ce document nous allons détailler l’installation d’un site internet wo
    - Répertoire des thèmes : /var/www/html/wpress/wp-content/themes
    - Répertoire des extensions : /var/www/html/wpress/wp-content/plugins
    - Fichier Virtual Host Nginx pour Wordpress : /etc/nginx/conf.d/wpress.conf
-   #### Espace espace utilisé et droits sur les répertoires :
+   #### Espace utilisé et droits sur les répertoires :
    - Répertoire Wordpress : 46,38 Mo : Accessible en écriture
    - Répertoire des téléversements : 0 Octet : Accessible en écriture
    - Répertoire des thèmes : 6,47 Mo : Accessible en écriture
@@ -139,22 +139,15 @@ Dans ce document nous allons détailler l’installation d’un site internet wo
 
 
 
-## Vous devez fournir :
+### Pour finir :
+- Nous esperons que notre document pouras vous aider dans votre propre installation d'un site internet wordpress sur un environement ubuntu. Ou du moins 
+  vous aider à comprendre les procédures qui ont été fait afin de parvenir à compléter l'installation du site sur un environement de test
 
 
 
-- Votre fichier avec toutes les parties demandées. Vous pouvez utiliser les formats suivant : Word (docx) ou Markdown (md).
-- Ce fichier doit comprendre en plus des éléments nommés plus haut et les sections suivantes :
-    - Page couverture selon les normes.
-    - Introduction
-    - Chacune des sections clairement identifiées.
-    - Une conclusion
-    - Bibliographie
-- Un dessin qui illustre le poste client, le serveur, les services et ainsi que leurs relations au sein du réseau.
-
-
-
-## Références à consulter :
+## Références consultées :
 
 - WordPress : https://fr-ca.wordpress.org/
-- Installation de WordPress sur Ubuntu : https://www.linuxshelltips.com/install-wordpress-on-ubuntu/, attention il s'agit d'une installation sur Apache et non Nginx.
+- Installation de WordPress sur Ubuntu : https://www.linuxshelltips.com/install-wordpress-on-ubuntu/
+- https://linuxways.net/ubuntu/how-to-install-wordpress-with-nginx-on-ubuntu/
+- https://github.com/jpduchesneauCegep/420-W44-SF
