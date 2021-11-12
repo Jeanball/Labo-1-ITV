@@ -147,7 +147,7 @@ Dans ce document nous allons détailler l’installation d’un site internet wo
 - Nous esperons que notre document pouras vous aider dans votre propre installation d'un site internet wordpress sur un environement ubuntu. Ou du moins 
   vous aider à comprendre les procédures qui ont été fait afin de parvenir à compléter l'installation du site sur un environement de test
 
-<img src="images/communication.png" alt="Erreur" width="200"/>
+<img src="images/communication.png" alt="Erreur" width="400"/>
 
 ## Références consultées :
 
