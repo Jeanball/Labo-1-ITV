@@ -90,7 +90,7 @@ Dans ce document nous allons détailler l’installation d’un site internet wo
    - Git : 3.3 Mo
    - PHP : 300 Ko
    - Nginx : 92 Ko
-   - MySQL : 44 Ko                           
+   - MySQL : 44 Ko fichier configuration et 7.3Mo fichier d'installation                           
    - Nom d'usager (UID) : jsdurette (1000) groupe (GID): jsdurette (1000) 
    #### Liste des commandes nécessaires pouvant être exécutées par une tierce personne.
    - sudo apt update
