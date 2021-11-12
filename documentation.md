@@ -139,10 +139,12 @@ Dans ce document nous allons détailler l’installation d’un site internet wo
 
 
    Le site wordpress
+   <br/>
    <img src="images/siteWordPress.png" alt="Erreur" width="400"/>
    <br/>
    <br/>
    Santé du site wordpress
+   <br/>
    <img src="images/santeSite.png" alt="Erreur" width="400"/>
 
 ### Image de la communication entre les services
