@@ -139,7 +139,7 @@ Dans ce document nous allons détailler l’installation d’un site internet wo
 
 
 
-   Cette procédure doit démontrer le bon fonctionnement du site Web Wordpress.
+   <img src="images/siteWordPress.png" alt="Erreur" width="400"/>
 
 ### Image de la communication entre les services
 
