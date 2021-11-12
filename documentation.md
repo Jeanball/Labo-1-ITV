@@ -139,7 +139,7 @@ Dans ce document nous allons détailler l’installation d’un site internet wo
 
 
    Le site wordpress
-   <img src="images/leSite.png" alt="Erreur" width="400"/>
+   <img src="images/siteWordPress.png" alt="Erreur" width="400"/>
    <br/>
    <br/>
    Santé du site wordpress
