@@ -138,8 +138,12 @@ Dans ce document nous allons détailler l’installation d’un site internet wo
 ### 5. Procédure de validation de l'installation.
 
 
-
+    Le site wordpress
    <img src="images/siteWordPress.png" alt="Erreur" width="400"/>
+   <br/>
+   <br/>
+   Santé du site wordpress
+   <img src="images/santeSite.png" alt="Erreur" width="400"/>
 
 ### Image de la communication entre les services
 
