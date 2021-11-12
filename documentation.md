@@ -141,13 +141,15 @@ Dans ce document nous allons détailler l’installation d’un site internet wo
 
    Cette procédure doit démontrer le bon fonctionnement du site Web Wordpress.
 
+### Image de la communication entre les services
 
+<img src="images/communication.png" alt="Erreur" width="400"/>
 
 ### Pour finir :
 - Nous esperons que notre document pouras vous aider dans votre propre installation d'un site internet wordpress sur un environement ubuntu. Ou du moins 
   vous aider à comprendre les procédures qui ont été fait afin de parvenir à compléter l'installation du site sur un environement de test
 
-<img src="images/communication.png" alt="Erreur" width="400"/>
+
 
 ## Références consultées :
 
